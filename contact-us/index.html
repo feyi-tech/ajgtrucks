@@ -57,13 +57,13 @@
       <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="/css/solid.min.css" media="all">
       <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="/css/brands.min.css" media="all">
       <link rel="stylesheet" id="elementor-icons-fa-regular-css" href="/css/regular.min.css" media="all">
+      <link rel="stylesheet" href="/css/contact-us.css" media="all">
       <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
       <script src="/js/jquery.min.js" id="jquery-core-js"></script>
       <script src="/js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
       <script src="/js/template-kit-export-public.js" id="template-kit-export-js"></script>
+      <script src="/js/contact-form.js" id="jquery-core-js"></script>
       
-      
-      <meta name="generator" content="WordPress 6.5.5">
       <link rel="canonical" href="https://capitalfund.me/contact-us/">
       
       
@@ -205,42 +205,66 @@
                                        <div class="formpicker_warper formpicker_warper_editable" data-metform-formpicker-key="996">
                                           <div class="elementor-widget-container">
                                              <div id="metform-wrap-1370e88-996" class="mf-form-wrapper" data-form-id="996" data-action="https://kitpro.site/capivest/wp-json/metform/v1/entries/insert/996" data-wp-nonce="78fe60065a" data-form-nonce="eaba5fa9eb" data-quiz-summery="false" data-save-progress="false" data-form-type="general-form" data-stop-vertical-effect="">
-                                                <form class="metform-form-content">
-                                                   <div class="mf-main-response-wrap   mf-response-msg-wrap" data-show="0">
-                                                      <div class="mf-response-msg">
-                                                         <i class="mf-success-icon fas fa-check"></i>
-                                                         <p></p>
-                                                      </div>
+                                                <form class="metform-form-content" id="truck-form">
+                                                   <div class="mf-main-response-wrap mf-response-msg-wrap" data-show="0">
+                                                       <div class="mf-response-msg">
+                                                           <i class="mf-success-icon fas fa-check"></i>
+                                                           <p></p>
+                                                       </div>
                                                    </div>
                                                    <div class="metform-form-main-wrapper">
-                                                      <div data-elementor-type="wp-post" data-elementor-id="996" class="elementor elementor-996">
-                                                         <div class="elementor-element elementor-element-98b09e7 e-flex e-con-boxed e-con e-parent" data-id="98b09e7" data-element_type="container">
-                                                            <div class="e-con-inner">
-                                                               <div class="elementor-element elementor-element-a1c9c66 elementor-widget elementor-widget-mf-email" data-id="a1c9c66" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default">
-                                                                  <div class="elementor-widget-container">
-                                                                     <div class="mf-input-wrapper"><label class="mf-input-label" for="mf-input-email-a1c9c66">Email 					<span class="mf-input-required-indicator"></span></label><input type="email" class="mf-input " id="mf-input-email-a1c9c66" name="mf-email" placeholder="Your Email " aria-invalid="false" value=""></div>
-                                                                  </div>
+                                                       <div class="elementor elementor-996">
+                                                           <div class="elementor-element elementor-element-98b09e7 e-flex e-con-boxed e-con e-parent" data-id="98b09e7" data-element_type="container">
+                                                               <div class="e-con-inner">
+                                                                   <div class="elementor-element elementor-element-18b37ef elementor-widget elementor-widget-mf-text" data-id="18b37ef" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-text&quot;}" data-widget_type="mf-text.default">
+                                                                       <div class="elementor-widget-container">
+                                                                           <div class="mf-input-wrapper">
+                                                                               <label class="mf-input-label" for="mf-input-text-18b37ef">Name<span class="mf-input-required-indicator"></span></label>
+                                                                               <input type="text" class="mf-input" id="mf-input-text-18b37ef" name="mf-text" placeholder="Your Name" aria-invalid="false" required>
+                                                                           </div>
+                                                                       </div>
+                                                                   </div>
+                                                                   <div class="elementor-element elementor-element-a1c9c66 elementor-widget elementor-widget-mf-email" data-id="a1c9c66" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default">
+                                                                       <div class="elementor-widget-container">
+                                                                           <div class="mf-input-wrapper">
+                                                                               <label class="mf-input-label" for="mf-input-email-a1c9c66">Email<span class="mf-input-required-indicator"></span></label>
+                                                                               <input type="email" class="mf-input" id="mf-input-email-a1c9c66" name="mf-email" placeholder="Your Email" aria-invalid="false" required>
+                                                                           </div>
+                                                                       </div>
+                                                                   </div>
+                                                                   <div class="elementor-element elementor-element-3f57205 elementor-widget elementor-widget-mf-select" data-id="3f57205" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-select&quot;}" data-widget_type="mf-select.default">
+                                                                       <div class="elementor-widget-container">
+                                                                           <div class="mf-input-wrapper">
+                                                                              <label class="mf-input-label" for="mf-input-select-3f57205">Select Preferred Truck Brand<span class="mf-input-required-indicator"></span></label>
+                                                                              <div class="select-wrapper">
+                                                                                 <select class="mf-input" id="mf-input-select-3f57205" name="mf-select" required>
+                                                                                       <option value="Freightliner">Freightliner</option>
+                                                                                       <option value="Peterbilt">Peterbilt</option>
+                                                                                       <option value="Kenworth">Kenworth</option>
+                                                                                       <option value="Volvo">Volvo</option>
+                                                                                       <option value="Mack">Mack</option>
+                                                                                       <option value="International">International</option>
+                                                                                       <option value="Western Star">Western Star</option>
+                                                                                       <option value="Navistar">Navistar</option>
+                                                                                       <option value="Sterling Trucks">Sterling Trucks</option>
+                                                                                       <option value="Hino">Hino</option>
+                                                                                 </select>
+                                                                              </div>
+                                                                           </div>
+                                                                       </div>
+                                                                   </div>
+                                                                   <div class="elementor-element elementor-element-e56647d mf-btn--left mf-btn--mobile-justify elementor-widget elementor-widget-mf-button" data-id="e56647d" data-element_type="widget" data-widget_type="mf-button.default">
+                                                                       <div class="elementor-widget-container">
+                                                                           <div class="mf-btn-wraper">
+                                                                               <button id="submit-btn" type="submit" class="metform-btn metform-submit-btn">Start</button>
+                                                                           </div>
+                                                                       </div>
+                                                                   </div>
                                                                </div>
-                                                               <div class="elementor-element elementor-element-18b37ef elementor-widget elementor-widget-mf-text" data-id="18b37ef" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-text&quot;}" data-widget_type="mf-text.default">
-                                                                  <div class="elementor-widget-container">
-                                                                     <div class="mf-input-wrapper"><label class="mf-input-label" for="mf-input-text-18b37ef">Name 					<span class="mf-input-required-indicator"></span></label><input type="text" class="mf-input " id="mf-input-text-18b37ef" name="mf-text" placeholder="Your Name " aria-invalid="false"></div>
-                                                                  </div>
-                                                               </div>
-                                                               <div class="elementor-element elementor-element-3f57205 elementor-widget elementor-widget-mf-textarea" data-id="3f57205" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-textarea&quot;}" data-widget_type="mf-textarea.default">
-                                                                  <div class="elementor-widget-container">
-                                                                     <div class="mf-input-wrapper"><label class="mf-input-label" for="mf-input-text-area-3f57205">Message 					<span class="mf-input-required-indicator"></span></label><textarea class="mf-input mf-textarea " id="mf-input-text-area-3f57205" name="mf-textarea" placeholder="Your Message " cols="30" rows="10" aria-invalid="false"></textarea></div>
-                                                                  </div>
-                                                               </div>
-                                                               <div class="elementor-element elementor-element-e56647d mf-btn--left mf-btn--mobile-justify elementor-widget elementor-widget-mf-button" data-id="e56647d" data-element_type="widget" data-widget_type="mf-button.default">
-                                                                  <div class="elementor-widget-container">
-                                                                     <div class="mf-btn-wraper " data-mf-form-conditional-logic-requirement=""><button type="submit" class="metform-btn metform-submit-btn " id=""><span>Submit</span></button></div>
-                                                                  </div>
-                                                               </div>
-                                                            </div>
-                                                         </div>
-                                                      </div>
+                                                           </div>
+                                                       </div>
                                                    </div>
-                                                </form>
+                                               </form>
                                              </div>
                                              <!----------------------------- 
                                                 * controls_data : find the the props passed indie of data attribute
@@ -430,7 +454,7 @@
                                     </div>
                                     <div id="Collapse-385c8f266b50beb0d9a1" class=" collapse" aria-labelledby="primaryHeading-1-389327b" data-parent="#accordion-66b50beb0d9a1">
                                        <div class="elementskit-card-body ekit-accordion--content">
-                                          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast                        
+                                          To apply for the big rigs, simply click the 'Get Started' button found throughout our site, or select the 'Contact Us' option from the menu. Fill out the brief form, and submit it. One of our dedicated agents will promptly reach out to guide you through the quick and easy process of getting your big rigs and starting your own trucking business. Don’t wait—take the first step toward your dream today!                        
                                        </div>
                                     </div>
                                  </div>
@@ -453,7 +477,7 @@
                                     </div>
                                     <div id="Collapse-51f230f66b50beb0d9a1" class=" collapse" aria-labelledby="primaryHeading-2-389327b" data-parent="#accordion-66b50beb0d9a1">
                                        <div class="elementskit-card-body ekit-accordion--content">
-                                          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast                        
+                                          The time it takes to get your big rigs depends on how quickly you apply, as we operate on a first-come, first-served basis. The sooner you start, the sooner you can secure your rigs and begin your trucking business. Don’t miss out—get started today to get ahead in the line!                        
                                        </div>
                                     </div>
                                  </div>
@@ -502,19 +526,19 @@
                                     <div class="elementor-widget-container">
                                        <div class="elementor-social-icons-wrapper elementor-grid">
                                           <span class="elementor-grid-item">
-                                          <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-fa3c464" target="_blank">
+                                          <a href="https://instagram.com/ajgtruckfund" class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-fa3c464" target="_blank">
                                           <span class="elementor-screen-only">Facebook</span>
                                           <i class="fab fa-facebook"></i>					</a>
                                           </span>
                                           <span class="elementor-grid-item">
-                                          <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-f542635" target="_blank">
-                                          <span class="elementor-screen-only">Twitter</span>
-                                          <i class="fab fa-twitter"></i>					</a>
+                                          <a href="https://instagram.com/ajgtruckfund" class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-f542635" target="_blank">
+                                          <span class="elementor-screen-only">Instagram</span>
+                                          <i class="fab fa-instagram"></i>					</a>
                                           </span>
                                           <span class="elementor-grid-item">
-                                          <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-a1f2815" target="_blank">
-                                          <span class="elementor-screen-only">Youtube</span>
-                                          <i class="fab fa-youtube"></i>					</a>
+                                          <a href="https://instagram.com/ajgtruckfund" class="elementor-icon elementor-social-icon elementor-social-icon-tiktok elementor-repeater-item-a1f2815" target="_blank">
+                                          <span class="elementor-screen-only">TikTok</span>
+                                          <i class="fab fa-tiktok"></i>					</a>
                                           </span>
                                        </div>
                                     </div>
@@ -539,7 +563,7 @@
                                                                Phone						</span>
                                                             </h3>
                                                             <p class="elementor-icon-box-description">
-                                                               (+653) 6543 865					
+                                                               <a href="https://wa.me/+18032579170" target="_blank" style="color: inherit!important;text-decoration: underline;">+1 (803) 257 9170</a>
                                                             </p>
                                                          </div>
                                                       </div>
@@ -562,7 +586,10 @@
                                                                Email						</span>
                                                             </h3>
                                                             <p class="elementor-icon-box-description">
-                                                               info@capitalfund.me				
+                                                               <a href="mailto:info@capitalfund.me" style="color: inherit!important;text-decoration: underline;">info@capitalfund.me</a>				
+                                                            </p>
+                                                            <p class="elementor-icon-box-description">
+                                                               <a href="mailto:press@capitalfund.me" style="color: inherit!important;text-decoration: underline;">press@capitalfund.me</a>	
                                                             </p>
                                                          </div>
                                                       </div>
