@@ -25,9 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
         var email = document.getElementById('mf-input-email-a1c9c66').value;
         var truckBrand = document.getElementById('mf-input-select-3f57205').value;
         
+        var eid = localStorage.getItem("eid") || "11"
         
         var phone = "+18032579170"
-        var message = `Hi there! My name is ${name}, and my email address is ${email}. I'm thrilled to take the first step toward transforming my life by starting my own trucking business with 2 big rigs. My preferred brand is ${truckBrand}. Let's make this dream a reality!`;
+        var message = `Hi there! My name is ${name}, and my email address is ${email}. I'm thrilled to take the first step toward transforming my life by starting my own trucking business with 2 big rigs. My preferred brand is ${truckBrand}. Let's make this dream a reality!\n\nApplication Entry ID: ${eid}`;
         var whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
         
         window.location.href = whatsappUrl;
