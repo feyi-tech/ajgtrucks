@@ -30,6 +30,20 @@ document.addEventListener("DOMContentLoaded", () => {
         var phone = "+18032579170"
         var message = `Hi there! My name is ${name}, and my email address is ${email}. I'm thrilled to take the first step toward transforming my life by starting my own trucking business with 2 big rigs. My preferred brand is ${truckBrand}. Let's make this dream a reality!\n\nApplication Entry ID: ${eid}`;
         var whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+        // Google Analytics event tracking
+        if (typeof gtag === 'function') {
+            gtag('event', 'form_submission', {
+                'event_category': 'Form',
+                'event_label': 'Truck Form Submission',
+                'value': 1,
+                'form_name': 'Truck Application Form',
+                'name': name,
+                'email': email,
+                'truckBrand': truckBrand,
+                'eid': eid
+            });
+        }
         
         window.location.href = whatsappUrl;
     });

@@ -1,0 +1,15 @@
+Psd: volvo.psd
+Truck Name: 2025 Volvo VNL64T760
+Trucker Name: Jack Thompson
+Link: https://www.syversontruck.com/volvo/inventory/specs/16331420/2025-Volvo-VNL64T760
+
+Psd: white-mack.psd
+Truck Name: 2025 MACK ANTHEM 64T
+Trucker Name: Luke Reynolds
+Link: https://www.vanguardtrucks.com/product/2025-mack-anthem-64t-3/
+
+Psd: blue-mack.psd
+Truck Name: 2024 MACK ANTHEM 64T
+Trucker Name: Ethan Hayes
+Link: https://www.vanguardtrucks.com/product/2024-mack-anthem-64t-2/
+
